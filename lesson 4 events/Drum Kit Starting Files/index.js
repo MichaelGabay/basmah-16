@@ -32,5 +32,5 @@ for (let i = 0; i < buttons.length; i++) {
 
 // האזנה ללחיצה על המקלדת, וקריאה לפונקציה עם התו הנלחץ
 addEventListener("keydown", function (e) {
-  playSound(e.key)
+  playSound(e.key.toLowerCase())
 })
